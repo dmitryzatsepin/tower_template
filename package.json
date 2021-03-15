@@ -10,7 +10,7 @@
     "test": "editorconfig-cli & stylelint ./src/styles/**/*.scss --syntax scss & eslint ./src/js",
     "stylelint-fix": "sass-lint ./src/assets/styles/**/*.sass --fix --syntax sass",
     "eslint-fix": "eslint ./src/assets/js/** --fix"
-	},
+  },
   "keywords": [],
   "author": "Dmitry Zatsepin",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "chrome-launcher": "^0.13.4",
     "del": "^6.0.0",
     "editorconfig-cli": "^0.3.0",
-    "eslint": "^7.21.0",
+    "eslint": "^7.22.0",
     "eslint-config-htmlacademy": "^2.1.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
