@@ -1,0 +1,149 @@
+@import "../../local_modules/normalize.css/normalize";
+@import "../utils/variables";
+@import "../utils/fonts";
+@import "../mixins/mixins";
+@import "../mixins/media";
+
+html {
+  font-size: $base-font-size;
+}
+
+// * + * {
+//   margin-top: 1.5rem;
+// }
+
+body {
+  background-color: $main-bg-color;
+  font-family: $default-font;
+  color: $black;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video,
+textarea {
+  vertical-align: middle;
+}
+
+textarea {
+  resize: none;
+}
+
+section,
+header,
+footer {
+  position: relative;
+  padding: 20px;
+}
+
+input,
+select,
+button {
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive .img-width {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bdr {
+  border: 1px solid red;
+}
+
+.bdy {
+  border: 1px solid yellow;
+}
+
+.bdg {
+  border: 1px solid green;
+}
+
+.bdb {
+  border: 1px solid blue;
+}

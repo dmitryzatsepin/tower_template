@@ -1,0 +1,12 @@
+// Breakpoints:
+$lg: 1024px
+$md: 768px
+$sm: 640px
+$xs: 320px
+
+$media-direction: max
+
+@mixin mw($width) 
+    @media ($media-direction + '-width': $width) 
+        @content
+
